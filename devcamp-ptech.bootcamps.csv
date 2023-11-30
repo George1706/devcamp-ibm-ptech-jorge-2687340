@@ -1,0 +1,7 @@
+_id,name,phone,topics[0],topics[1],createdAt,address,__v
+6543145ff92bc5a85a70567c,Javascript Bootcamp,312558874,Backend,Frontend,2023-11-01,SENA calle 52,
+65431597f92bc5a85a70567d,Java Spring,5941301,Backend,,2023-11-01,SENA calle 52,
+6543353a2e2ab56aa8119d6d,Focus Bootcamp,5931301,AI,,2023-11-01T12:00:00.000Z,SENA calle 52,0
+655eb328b33386c7a0831938,Navidad Bootcamp,5941301,Backend,,2023-11-22,Sena Calle 52,
+655eb993f27c6d249eabb14a,python Bootcamp,5941301,AI,,2023-11-22T00:00:00.000Z,sena Calle 52,0
+655ec209f1636c2216b00ee3,pythonn Bootcamp,594254,AI,,2023-11-22T00:00:00.000Z,sena Calle 52,0

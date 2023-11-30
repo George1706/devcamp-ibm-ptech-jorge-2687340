@@ -8,6 +8,7 @@ const conectarDB = require("./config/db")
 const bootcampsRoutes = require('./routes/bootcampRoutes')
 const coursesRoutes = require('./routes/courseRoutes')
 const reviewsRoutes = require('./routes/reviewRoutes')
+const userRoutes = require('./routes/userRoutes')
 
 //CUANDO SON DEPENDENCIAS DEL PROYECTO DEBE SER CON ./ ejm ./config/db"
 
@@ -27,14 +28,13 @@ const app = express()
 app.use(express.json())
 
 //Establecer rutas del proyecto
-app.use('/api/v1/bootcamps' ,
-        bootcampsRoutes)
+app.use('/api/v1/bootcamps',bootcampsRoutes)
 
-app.use('/api/v1/courses' ,
-        coursesRoutes)
+app.use('/api/v1/courses',coursesRoutes)
 
-app.use('/api/v1/reviews' ,
-        reviewsRoutes)
+app.use('/api/v1/reviews',reviewsRoutes)
+
+app.use('/api/v1/auth',userRoutes)
 
 //Crear el servidor de aplicaciones
 //Aplicaciones express
